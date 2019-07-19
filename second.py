@@ -1,6 +1,8 @@
 a=int(input())
-b=int(a/2)*2
-if(b==a):
-    print('Even')
+if(a>0 and a%2==0):
+    print('even')
+elif(a>0 and a%2!=0):
+        print('odd')
 else:
-        print('Odd')
+            print('invalid')
+    
